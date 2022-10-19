@@ -1,0 +1,20 @@
+{
+  "lerna": "5.1.4",
+  "version": "1.3.0-alpha.9",
+  "useNx": true,
+  "useWorkspaces": true,
+  "changelogPreset": "angular",
+  "packages": ["src/components/*"],
+  "ignoreChanges": ["**/*.test.ts", "**/*.stories.ts", "**/*.md"],
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "https://packages.aa.com/artifactory/api/npm/npm-public/",
+      "message": "chore(release): publish %v"
+    }
+  }
+}

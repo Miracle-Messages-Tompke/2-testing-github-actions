@@ -1,0 +1,20 @@
+export const selectorTabbable = `
+  a[href], area[href], input:not([disabled]):not([tabindex='-1']),
+  button:not([disabled]):not([tabindex='-1']),select:not([disabled]):not([tabindex='-1']),
+  textarea:not([disabled]):not([tabindex='-1']),
+  iframe, object, embed, *[tabindex]:not([tabindex='-1']), *[contenteditable=true],
+  adc-accordion-item,
+  adc-button,
+  adc-checkbox,
+  adc-content-switch,
+  adc-datepicker-input,
+  adc-input,
+  adc-link,
+  adc-modal,
+  adc-modal-close-button,
+  adc-notification,
+  adc-radio-button,
+  adc-search,
+  adc-tab,
+  adc-textarea
+`;

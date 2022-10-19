@@ -1,0 +1,10 @@
+import { componentStyles } from '@adc/styles';
+import { css } from 'lit';
+
+export default css`
+  ${componentStyles}
+
+  :host {
+    display: inline-flex;
+  }
+`;

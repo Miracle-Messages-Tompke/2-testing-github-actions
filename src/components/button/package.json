@@ -1,0 +1,53 @@
+{
+  "name": "@aileron/button",
+  "version": "1.3.0-alpha.9",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
+  },
+  "author": "David Ozee",
+  "homepage": "https://aileron.aa.com/",
+  "bugs": {
+    "email": "david.ozee@aa.com",
+    "url": "https://github.com/AAInternal/aileron/issues"
+  },
+  "main": "dist/button.js",
+  "module": "dist/button.js",
+  "types": "dist/button.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAInternal/aileron.git",
+    "directory": "src/components/button"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:prod": "NODE_ENV=production npm run build && npm run build:types && npm run build:cem",
+    "build:types": "rollup -i index.ts -o dist/button.d.ts -f es -p 'rollup-plugin-ts={tsconfig: \"tsconfig.types.json\"}'",
+    "build:cem": "cem analyze --litelement --globs src/*.ts --outdir dist",
+    "lint": "eslint --config ../../../.eslintrc.js --ignore-path ../../../.eslintignore --fix . --ext .ts",
+    "lint:css": "jest --config ./jest.stylelint.config.js",
+    "prebuild:prod": "npx del-cli dist",
+    "postbuild:prod": "rollup -c rollup.cdn.config.js",
+    "test": "jest --config jest.config.js --passWithNoTests",
+    "start": "npm run watch",
+    "watch": "npm run build -- --watch"
+  },
+  "dependencies": {
+    "@aileron/styles": "1.3.0-alpha.9",
+    "lit": "^2.1.1",
+    "tslib": "^2.3.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": [
+          "dist"
+        ]
+      }
+    }
+  },
+  "customElements": "dist/custom-elements.json"
+}

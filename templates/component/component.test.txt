@@ -1,0 +1,12 @@
+import "@aileron/{{ prefix }}-{{ kebabCase name }}";
+
+describe("<{{ prefix }}-{{ kebabCase name }}>", () => {
+  describe("should be accessible", () => {
+    it("should be accessible", async () => {
+      document.body.innerHTML = `<h1>Custom element test</h1> <{{ prefix }}-{{ kebabCase name }}>Hello World</{{ prefix }}-{{ kebabCase name }}>`;
+      const el = document.querySelector("{{ prefix }}-{{ kebabCase name }}");
+
+      await expect(el).to.be.accessible();
+    });
+  });
+});

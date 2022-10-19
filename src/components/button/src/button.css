@@ -1,0 +1,13 @@
+@aileron base;
+@aileron components;
+@aileron utilities;
+
+@layer {
+  :host {
+    @apply inline-flex;
+  }
+
+  :host([size~=fullwidth]) {
+    @apply flex;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "extends": "nx/presets/npm.json",
+  "targetDefaults": {
+    "build": {
+      "inputs": ["prod", "^prod"],
+      "dependsOn": ["^build"],
+      "outputs": ["{projectRoot}/components/**/dist"]
+    },
+    "test": {
+      "inputs": ["default", "^prod", "{workspaceRoot}/web-test-runner.config.mjs"],
+      "dependsOn": ["build"]
+    }
+  },
+  "namedInputs": {
+    "default": ["{projectRoot}/src/components/**/*"],
+    "prod": ["!{projectRoot}/src/components/**/src/*.test.ts", "!{projectRoot}/src/components/**/src/*.stories.ts"]
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "build:prod",
+          "test"
+        ],
+        "parallel": 3
+      }
+    }
+  }
+}

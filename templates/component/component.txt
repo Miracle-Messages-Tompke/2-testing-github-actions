@@ -1,0 +1,28 @@
+import { LitElement, html } from 'lit';
+import { property } from 'lit/decorators.js';
+import styles from './{{ kebabCase name }}.styles';
+
+export class {{  pascalCase name }} extends LitElement {
+  static styles = styles;
+
+  @property() name = '{{ pascalCase name }}';
+
+  render() {
+    return html`
+      <p>Hello from my ${this.name}.</p>
+      <slot></slot>
+    `;
+  }
+}
+
+try {
+  customElements.define("{{ prefix }}-{{ kebabCase name }}", {{  pascalCase name }});
+} catch (e) {
+  // do nothing
+}
+
+declare global {
+  interface HTMLElementTagNameMap {
+    "{{ prefix }}-{{ kebabCase name }}": {{ pascalCase name }};
+  }
+}

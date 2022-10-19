@@ -1,0 +1,80 @@
+{
+  "name": "@aileron/styles",
+  "version": "1.3.0-alpha.9",
+  "author": "David Ozee",
+  "homepage": "https://aileron.aa.com/",
+  "bugs": {
+    "email": "david.ozee@aa.com",
+    "url": "https://github.com/AAInternal/aileron/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
+  },
+  "main": "dist/plugin/index.js",
+  "module": "dist/plugin/index.js",
+  "style": "dist/light.styles.css",
+  "types": "dist/styles.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAInternal/aileron.git",
+    "directory": "src/components/styles"
+  },
+  "scripts": {
+    "build": "npm run build:plugin",
+    "build:rollup": "rollup -c",
+    "build:plugin": "npx swc ./src/plugin --out-dir ./dist --copy-files",
+    "build:prod": "NODE_ENV=production npm run build && npm run build:types",
+    "build:types": "rollup -i index.ts -o dist/styles.d.ts -f es -p 'rollup-plugin-ts={tsconfig: \"tsconfig.types.json\"}'",
+    "prebuild": "npx style-dictionary build",
+    "postbuild": "npm run build:rollup",
+    "generate": "npm run generate:plugin-list",
+    "generate:plugin-list": "node --experimental-json-modules scripts/create-plugin-list.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "npm run watch",
+    "watch": "npm run build -- --watch"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chokidar": "^3.5.3",
+    "color-name": "^1.1.4",
+    "detective": "^5.2.1",
+    "didyoumean": "^1.2.2",
+    "dlv": "^1.1.3",
+    "fast-glob": "^3.2.11",
+    "glob-parent": "^6.0.2",
+    "is-glob": "^4.0.3",
+    "lilconfig": "^2.0.6",
+    "lit": "^2.1.1",
+    "normalize-path": "^3.0.0",
+    "object-hash": "^3.0.0",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "postcss-js": "^4.0.0",
+    "postcss-load-config": "^3.1.4",
+    "postcss-nested": "5.0.6",
+    "postcss-selector-parser": "^6.0.10",
+    "postcss-value-parser": "^4.2.0",
+    "quick-lru": "^5.1.1",
+    "resolve": "^1.22.1",
+    "serialize-javascript": "^6.0.0",
+    "tslib": "^2.3.1"
+  },
+  "files": [
+    "dist",
+    "*.css"
+  ],
+  "nx": {
+    "tags": [
+      "@aileron/styles"
+    ],
+    "targets": {
+      "build": {
+        "outputs": [
+          "dist"
+        ]
+      }
+    }
+  }
+}

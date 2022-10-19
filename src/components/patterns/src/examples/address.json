@@ -1,0 +1,149 @@
+[
+  [
+    {
+      "component": "select",
+      "label-text": "Card type",
+      "required": true,
+      "value": [
+        {
+          "label-text": "American Express",
+          "value": "American Express"
+        },
+        {
+          "label-text": "Visa",
+          "value": "Visa"
+        },
+        {
+          "label-text": "Mastercard",
+          "value": "Mastercard"
+        }
+      ],
+      "placeholder": "Select card type"
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Card number",
+      "required": true,
+      "value": "",
+      "placeholder": "",
+      "validity-message": "Card number is required. Please enter card number."
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Expiration Date",
+      "required": true,
+      "value": "",
+      "placeholder": "MM/YY"
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Security code",
+      "required": true,
+      "value": "",
+      "placeholder": "",
+      "validity-message": "Security code required"
+    }
+  ],
+  [
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "First name",
+      "required": true,
+      "value": "",
+      "placeholder": "",
+      "autocomplete": "given-name"
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Middle name",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Last name",
+      "required": true,
+      "value": "",
+      "placeholder": "",
+      "autocomplete": "family-name"
+    }
+  ],
+  [
+    {
+      "component": "divider",
+      "style": ""
+    }
+  ],
+  [
+    {
+      "component": "select",
+      "label-text": "Country / region",
+      "required": true,
+      "disabled": true,
+      "value": [
+        {
+          "label-text": "United States",
+          "value": "United States",
+          "default": true
+        },
+        {
+          "label-text": "Canada",
+          "value": "Canada"
+        },
+        {
+          "label-text": "Mexico",
+          "value": "Mexico"
+        }
+      ],
+      "placeholder": "Select Country"
+    }
+  ],
+  [
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Billing address 1",
+      "required": true,
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Billing address 2",
+      "value": "",
+      "placeholder": ""
+    }
+  ],
+  [
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "City",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "State",
+      "required": false,
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "component": "text",
+      "pattern": "",
+      "label-text": "Postal code",
+      "required": false,
+      "value": "",
+      "placeholder": ""
+    }
+  ]
+]

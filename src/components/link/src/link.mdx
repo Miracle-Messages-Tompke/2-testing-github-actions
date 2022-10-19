@@ -1,0 +1,38 @@
+import { Preview, Props, Story } from "@storybook/addon-docs";
+
+
+# Link
+
+Represents a link.
+
+## Installation
+
+There are two ways to install and use this component, this can be done with NPM:
+
+```sh
+npm install -S @aileron/link
+```
+
+or via cdn by:
+
+```html
+<script defer src="https://cdn.aa.com/aileron/link@latest/link.js"></script>
+```
+
+<Preview withToolbar>
+  <Story id="components-link--default-link" height="120px" />
+</Preview>
+
+<Preview withToolbar>
+  <Story id="components-link--chevron-link" height="120px" />
+</Preview>
+
+<Preview withToolbar>
+  <Story id="components-link--new-tab-window-link" height="120px" />
+</Preview>
+
+## `<adc-link>` attributes and properties
+
+Note: For `boolean` attributes, `true` means simply setting the attribute (e.g. `<adc-link disabled>`) and `false` means not setting the attribute (e.g. `<adc-link>` without `disabled` attribute).
+
+<Props of="adc-link" />

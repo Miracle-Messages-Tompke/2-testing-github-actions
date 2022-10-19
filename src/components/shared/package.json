@@ -1,0 +1,53 @@
+{
+  "name": "@aileron/shared",
+  "version": "1.3.0-alpha.9",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
+  },
+  "author": "David Ozee",
+  "homepage": "https://aileron.aa.com/",
+  "bugs": {
+    "email": "david.ozee@aa.com",
+    "url": "https://github.com/AAInternal/aileron/issues"
+  },
+  "main": "dist/shared.js",
+  "module": "dist/shared.js",
+  "types": "dist/shared.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:prod": "NODE_ENV=production npm run build && npm run build:types",
+    "build:types": "rollup -i index.ts -o dist/shared.d.ts -f es -p 'rollup-plugin-ts={tsconfig: \"tsconfig.types.json\"}'",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint --config ../../../.eslintrc.js --ignore-path ../../../.eslintignore --fix . --ext .ts",
+    "start": "npm run watch",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAInternal/aileron.git",
+    "directory": "src/components/shared"
+  },
+  "dependencies": {
+    "focus-visible": "^5.2.0",
+    "lit": "^2.1.1",
+    "tslib": "^2.3.1"
+  },
+  "nx": {
+    "tags": [
+      "component",
+      "@aileron/shared"
+    ],
+    "targets": {
+      "build": {
+        "outputs": [
+          "dist"
+        ]
+      }
+    }
+  },
+  "customElements": "dist/custom-elements.json"
+}

@@ -1,0 +1,60 @@
+# {{ pascalCase name }}
+
+<!--
+  `{{ prefix }}-{{ kebabCase name }}` was generated and this content should be expanded upon and a summary should replace this message.
+
+  SUMMARY HERE
+-->
+
+Below, find guidance on how to install the {{ kebabCase name }} web component and examples
+of `{{ prefix }}-{{ kebabCase name }}` in use. Visit the components storybook page for a live demo and
+full code usage documentation.
+
+## Prerequisites
+
+If this is your first time using an internal package using [packages.aa.com](https://packages.aa.com),
+please take a moment to read through the [Get Started](https://aileron.aa.com/developing/get-started)
+guide before continuing.
+
+## Installation
+
+There are two ways to install the {{ kebabCase name }} package:
+
+```bash
+npm install -S @aileron/{{ kebabCase name }}
+```
+
+or via cdn:
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module" src="https://cdn.aa.com/aileron/{{ kebabCase name }}@latest/dist/{{ kebabCase name }}.js"></script>
+    ...
+  </head>
+    ...
+</html>
+```
+
+## Example Usage
+
+```html
+<{{ prefix }}-{{ kebabCase name }} name="{{ pascalCase name }}">
+  <p>This is slot text!</p>
+</{{ prefix }}-{{ kebabCase name }}>
+```
+
+## `<{{ prefix }}-{{ kebabCase name }}>` Attributes and Properties
+
+|Name|Description|Default|
+|----|-----------|-------|
+|name|Sets a name to be used with `{{ kebabCase name }}`.<br />`string`|``|
+
+## `<{{ prefix }}-{{ kebabCase name }}>` Slots
+
+|Name|Description|
+|----|-----------|
+| - | This is the default slot.

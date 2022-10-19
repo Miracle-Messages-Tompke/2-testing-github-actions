@@ -1,0 +1,20 @@
+<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#FFFFFF;}
+    .st1{fill:none;stroke:#999999;stroke-width:2.000000e-02;stroke-miterlimit:10;}
+    .st2{fill:none;stroke:#FF00FF;stroke-width:4.000000e-02;stroke-miterlimit:10;}
+    .st3{fill:none;stroke:#FF00FF;stroke-width:0.1;stroke-miterlimit:10;}
+    .st4{opacity:0.3;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+    .st5{opacity:0.3;}
+    .st6{fill:#ED1C24;}
+    .st7{fill:#39B54A;}
+    .st8{fill:none;}
+    .st9{opacity:0.15;}
+  </style>
+  <g>
+    <path class="st9" d="M16,30C8.3,30,2,23.7,2,16S8.3,2,16,2s14,6.3,14,14S23.7,30,16,30z M16,4C9.4,4,4,9.4,4,16s5.4,12,12,12
+      s12-5.4,12-12S22.6,4,16,4z"/>
+    <rect x="0" y="0" class="st8" width="32" height="32"/>
+    <path d="M4,16H2C2,8.3,8.3,2,16,2v2C9.4,4,4,9.4,4,16z"/>
+  </g>
+</svg>

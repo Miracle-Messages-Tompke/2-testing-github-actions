@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "module": "amd",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outFile": "dist/dialog.d.ts"
+  },
+  "include": ["index.ts"]
+}

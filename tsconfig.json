@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": [
+      "dom",
+      "dom.Iterable",
+      "es2020"
+    ],
+    "rootDir": ".",
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": false,
+    "noImplicitThis": false,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "outDir": "./out",
+    "baseUrl": ".",
+    "paths": {
+      "@adc/*": ["src/components/*"],
+      "@adc/internal/*": ["src/internal/*"],
+      "@adc/utilities/*": ["src/utilities/*"]
+    },
+    "typeRoots": ["node_modules/@types"],
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true,
+        "rules": {
+          "no-unknown-attribute": "off"
+        }
+      }
+    ]
+  },
+  "include": ["global.d.ts", "src/components", "src/internal", "src/utilities", "node_modules/esbuild-plugin-lit/modules.d.ts"],
+  "exclude": [
+    "node_modules",
+    "**/dist/**",
+    "**/scripts/**"
+  ]
+}

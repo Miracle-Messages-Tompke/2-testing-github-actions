@@ -1,0 +1,48 @@
+import { Preview, Props, Story } from "@storybook/addon-docs";
+
+
+# Date picker
+
+Date and time pickers allow users to select a single or a range of dates and times.
+
+## Installation
+
+There are two ways to install and use this component, this can be done with NPM:
+
+```sh
+npm install -S @aileron/date-picker
+```
+
+or via cdn by:
+
+```html
+<script defer src="https://cdn.aa.com/aileron/date-picker@latest/dist/date-picker.js"></script>
+```
+
+## Single Date Picker
+
+A single Date Picker consists of an input field and a calendar.
+
+<Preview withToolbar>
+  <Story id="components-date-picker--single-picker" height="480px" />
+</Preview>
+
+## Range Date Picker
+
+A range Date Picker consists of two input fields and a calendar.
+
+<Preview withToolbar>
+  <Story id="components-date-picker--range-picker" height="480px" />
+</Preview>
+
+## `<adc-date-picker>` attributes, properties and events
+
+Note: For `boolean` attributes, `true` means simply setting the attribute (e.g. `<adc-date-picker open>`) and `false` means not setting the attribute (e.g. `<adc-date-picker>` without `open` attribute).
+
+<Props of="adc-date-picker" />
+
+## `<adc-date-picker-input>` attributes and properties
+
+Note: For `boolean` attributes, `true` means simply setting the attribute (e.g. `<adc-date-picker-input readonly>`) and `false` means not setting the attribute (e.g. `<adc-date-picker-input>` without `readonly` attribute).
+
+<Props of="adc-date-picker-input" />

@@ -1,0 +1,1 @@
+export * from "./src/{{ kebabCase name }}.component";

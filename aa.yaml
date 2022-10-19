@@ -1,0 +1,6 @@
+apiVersion: 0.2.3
+cmdAppShortName: # FltManifst
+- AACom
+squads:
+- 448402 # Design Systems
+- 1671653 # Design System Tools

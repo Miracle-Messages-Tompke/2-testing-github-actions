@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#999999;stroke-width:2.000000e-02;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FF00FF;stroke-width:4.000000e-02;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FF00FF;stroke-width:0.1;stroke-miterlimit:10;}
+	.st4{opacity:0.3;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st5{opacity:0.3;}
+	.st6{fill:#ED1C24;}
+	.st7{fill:#39B54A;}
+	.st8{fill:none;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+<g>
+	<path d="M28,8H4c-1.1,0-2,0.9-2,2v16c0,1.1,0.9,2,2,2h24c1.1,0,2-0.9,2-2V10C30,8.9,29.1,8,28,8z M4,26V10h24l0,16H4z M12,7H6V5h6
+		V7z M26,7h-6V5h6V7z M20,17h6v2h-6V17z M10,17h2v2h-2v2H8v-2H6v-2h2v-2h2V17z"/>
+	<rect class="st8" width="32" height="32"/>
+</g>
+</svg>
