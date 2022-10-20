@@ -1,6 +1,6 @@
 {
   "name": "@aileron/notification",
-  "version": "1.4.0-beta.0",
+  "version": "1.4.0-rc.0",
   "author": "David Ozee",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -32,8 +32,8 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/icon": "1.4.0-beta.0",
-    "@aileron/shared": "1.4.0-beta.0",
+    "@aileron/icon": "1.4.0-rc.0",
+    "@aileron/shared": "1.4.0-rc.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
