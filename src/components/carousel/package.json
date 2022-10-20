@@ -1,13 +1,13 @@
 {
   "name": "@aileron/carousel",
-  "version": "1.8.0",
+  "version": "1.9.0-alpha.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/AAInternal/aileron.git",
     "directory": "src/components/carousel"
   },
   "dependencies": {
-    "@aileron/icon": "1.8.0",
+    "@aileron/icon": "1.9.0-alpha.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
