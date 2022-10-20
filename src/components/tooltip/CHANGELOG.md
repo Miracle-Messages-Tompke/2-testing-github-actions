@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0-beta.0](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.13...v1.3.0-beta.0) (2022-10-20)
+
+**Note:** Version bump only for package @aileron/tooltip
+
 # [1.3.0-alpha.13](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.12...v1.3.0-alpha.13) (2022-10-20)
 
 **Note:** Version bump only for package @aileron/tooltip
