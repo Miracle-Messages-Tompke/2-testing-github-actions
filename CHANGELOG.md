@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0-alpha.12](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.11...v1.3.0-alpha.12) (2022-10-20)
+
+### Features
+
+- **button:** Added styles. ([df910da](https://github.com/AAInternal/aileron/commit/df910da67a350c5ab49d3f0b1e8085e2495d26db))
+
 # [1.3.0-alpha.11](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.10...v1.3.0-alpha.11) (2022-10-20)
 
 ### Features
