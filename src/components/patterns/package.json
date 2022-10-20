@@ -1,6 +1,6 @@
 {
   "name": "@aileron/patterns",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "author": "David Ozee",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -32,7 +32,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/button": "1.5.0",
+    "@aileron/button": "1.6.0",
     "@aileron/checkbox": "1.5.0",
     "@aileron/divider": "1.5.0",
     "@aileron/grid": "1.5.0",
