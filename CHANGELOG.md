@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/AAInternal/aileron/compare/v1.7.0...v1.8.0) (2022-10-20)
+
+### Features
+
+- **button:** addeed things. ([38f108b](https://github.com/AAInternal/aileron/commit/38f108b562c917f76356f7dd685c8e53d705f8ba))
+- **button:** removed things. ([666de18](https://github.com/AAInternal/aileron/commit/666de180cb2d1db3a81f4628f3abc5d94d6a8779))
+
 # [1.7.0](https://github.com/AAInternal/aileron/compare/v1.6.0...v1.7.0) (2022-10-20)
 
 ### Features
