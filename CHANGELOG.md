@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0-alpha.11](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.10...v1.3.0-alpha.11) (2022-10-20)
+
+### Features
+
+- **button:** changes to css. ([2a36252](https://github.com/AAInternal/aileron/commit/2a36252090ba2c8328a62d3c94cbaec53f8e960b))
+- **docs:** Changes to button. ([f6dc8be](https://github.com/AAInternal/aileron/commit/f6dc8befa88ae6feb5dabdacfa7ab99f531ad3e2))
+
 # 1.3.0-alpha.10 (2022-10-20)
 
 **Note:** Version bump only for package 2-testing-github-actions

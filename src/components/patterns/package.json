@@ -1,6 +1,6 @@
 {
   "name": "@aileron/patterns",
-  "version": "1.3.0-alpha.10",
+  "version": "1.3.0-alpha.11",
   "author": "David Ozee",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -32,7 +32,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/button": "^1.3.0-alpha.10",
+    "@aileron/button": "^1.3.0-alpha.11",
     "@aileron/checkbox": "^1.3.0-alpha.10",
     "@aileron/divider": "^1.3.0-alpha.10",
     "@aileron/grid": "^1.3.0-alpha.10",

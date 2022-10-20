@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0-alpha.11](https://github.com/AAInternal/aileron/compare/v1.3.0-alpha.10...v1.3.0-alpha.11) (2022-10-20)
+
+**Note:** Version bump only for package @aileron/patterns
+
 # 1.3.0-alpha.10 (2022-10-20)
 
 **Note:** Version bump only for package @aileron/patterns
