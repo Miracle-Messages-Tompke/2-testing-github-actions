@@ -7,6 +7,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package 2-testing-github-actions
 
-# [1.4.0](https://github.com/AAInternal/aileron/compare/v1.4.0-rc.0...v1.4.0) (2022-10-20)
-
-**Note:** Version bump only for package 2-testing-github-actions
