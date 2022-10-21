@@ -1,6 +1,6 @@
 {
   "name": "@aileron/tabs",
-  "version": "1.15.0-alpha.0",
+  "version": "1.15.0-alpha.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -36,7 +36,7 @@
     "directory": "src/components/tabs"
   },
   "dependencies": {
-    "@aileron/shared": "1.15.0-alpha.0",
+    "@aileron/shared": "1.15.0-alpha.1",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
