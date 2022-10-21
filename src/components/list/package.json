@@ -1,6 +1,6 @@
 {
   "name": "@aileron/list",
-  "version": "1.13.0-beta.1",
+  "version": "1.13.0-rc.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,7 +33,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/icon": "1.13.0-beta.1",
+    "@aileron/icon": "1.13.0-rc.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
