@@ -1,6 +1,6 @@
 {
   "name": "@aileron/loading",
-  "version": "1.13.0-rc.0",
+  "version": "1.13.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,7 +33,7 @@
   "module": "dist/loading.js",
   "types": "dist/loading.d.ts",
   "dependencies": {
-    "@aileron/icon": "1.13.0-rc.0",
+    "@aileron/icon": "1.13.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
