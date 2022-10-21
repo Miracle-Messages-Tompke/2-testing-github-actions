@@ -1,6 +1,6 @@
 {
   "name": "@aileron/number-input",
-  "version": "1.14.0-alpha.0",
+  "version": "1.14.0-alpha.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,7 +33,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/icon": "1.14.0-alpha.0",
+    "@aileron/icon": "1.14.0-alpha.1",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
