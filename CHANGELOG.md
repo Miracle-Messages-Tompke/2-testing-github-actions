@@ -1,4 +1,10 @@
-# [](https://github.com/AAInternal/aileron/compare/v1.11.0...v) (2022-10-21)
+# [1.12.0](https://github.com/AAInternal/aileron/compare/v1.11.0...v1.12.0) (2022-10-21)
+
+
+### Features
+
+* **button:** added mores styling to the things and the stuff. ([d44730f](https://github.com/AAInternal/aileron/commit/d44730f21fc9168afa166e3611083278e98ee27b))
+* **button:** removed things from stuff. ([59f15c8](https://github.com/AAInternal/aileron/commit/59f15c859c715b87877fbfde090a36b1babec125))
 
 
 
