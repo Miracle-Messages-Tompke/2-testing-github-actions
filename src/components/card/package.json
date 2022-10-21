@@ -1,6 +1,6 @@
 {
   "name": "@aileron/card",
-  "version": "1.14.0",
+  "version": "1.15.0-alpha.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"

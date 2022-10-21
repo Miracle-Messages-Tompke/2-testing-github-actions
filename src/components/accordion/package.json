@@ -1,6 +1,6 @@
 {
   "name": "@aileron/accordion",
-  "version": "1.14.0",
+  "version": "1.15.0-alpha.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,8 +33,8 @@
   "module": "dist/accordion.js",
   "types": "dist/accordion.d.ts",
   "dependencies": {
-    "@aileron/icon": "1.14.0",
-    "@aileron/styles": "1.14.0",
+    "@aileron/icon": "1.15.0-alpha.0",
+    "@aileron/styles": "1.15.0-alpha.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
