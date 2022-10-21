@@ -1,6 +1,6 @@
 {
   "name": "@aileron/tooltip",
-  "version": "1.10.0",
+  "version": "1.11.0-alpha.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,7 +33,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/button-icon": "1.10.0",
+    "@aileron/button-icon": "1.11.0-alpha.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
