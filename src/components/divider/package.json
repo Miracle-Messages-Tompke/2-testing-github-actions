@@ -1,6 +1,6 @@
 {
   "name": "@aileron/divider",
-  "version": "1.16.2-rc.0",
+  "version": "1.16.3-beta.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
