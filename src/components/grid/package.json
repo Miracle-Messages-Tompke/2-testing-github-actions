@@ -1,6 +1,6 @@
 {
   "name": "@aileron/grid",
-  "version": "1.16.4-rc.0",
+  "version": "1.16.6-beta.0",
   "author": "David Ozee",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -33,7 +33,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/layout": "1.16.4-rc.0",
+    "@aileron/layout": "1.16.6-beta.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
