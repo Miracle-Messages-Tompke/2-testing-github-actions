@@ -32,13 +32,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          npx lerna version --conventional-commits --conventional-graduate -m "chore(release): publish %v" --no-private --no-changelog --force-publish --yes --exact --no-push
-          echo "$(git tag --list)"
-          git push --tags
-      - name: Remove pre-release tags
-        run: |
           git fetch --all --tag
-          echo "$(git tag --list)"
+          npx lerna version --conventional-commits --conventional-graduate -m "chore(release): publish %v" --no-private --no-changelog --force-publish --yes --exact --no-push
+          git fetch --all --tag
           git tag -l | grep -vE '^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$' | xargs git tag -d
           npx conventional-changelog -p angular -i CHANGELOG.md --skip-unstable -s -r 2
           git add .
