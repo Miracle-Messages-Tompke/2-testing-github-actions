@@ -1,6 +1,6 @@
 {
   "lerna": "5.1.4",
-  "version": "1.16.4",
+  "version": "1.16.5",
   "useNx": true,
   "useWorkspaces": true,
   "changelogPreset": "angular",
