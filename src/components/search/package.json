@@ -1,6 +1,6 @@
 {
   "name": "@aileron/search",
-  "version": "1.16.3-beta.0",
+  "version": "1.16.3-rc.0",
   "author": "Pranshu Dixit",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -33,9 +33,9 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/icon": "1.16.3-beta.0",
-    "@aileron/shared": "1.16.3-beta.0",
-    "@aileron/text-input": "1.16.3-beta.0",
+    "@aileron/icon": "1.16.3-rc.0",
+    "@aileron/shared": "1.16.3-rc.0",
+    "@aileron/text-input": "1.16.3-rc.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
