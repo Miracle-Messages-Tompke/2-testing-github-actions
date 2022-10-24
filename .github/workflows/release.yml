@@ -34,13 +34,20 @@ jobs:
           git config --local user.name "GitHub Action"
           git fetch --all --tag
           npx lerna version --conventional-commits --conventional-graduate -m "chore(release): publish %v" --no-private --no-changelog --force-publish --yes --exact --no-push
-          git fetch --all --tag
-          git tag -l | grep -vE '^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$' | xargs git tag -d
-          npx conventional-changelog -p angular -i CHANGELOG.md --skip-unstable -s -r 2
-          git add .
-          git commit -m 'chore(changelog): update changelog'
           git push 
           git push --tags
+      - name: build changelog
+        # run: |
+        #   git fetch --all --tag
+        #   git tag -l | grep -vE '^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$' | xargs git tag -d
+        #   npx conventional-changelog -p angular -i CHANGELOG.md --skip-unstable -s -r 2
+        #   git add .
+        #   git commit -m 'chore(changelog): update changelog'
+        run: |
+          git fetch --all --tag
+          git tag -l | grep -vE '^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$' | xargs git tag -d
+          echo "buildchangelog: $(git tag --list)"
+          echo "$(git tag --sort=-creatordate | head -1)"
       - name: "Get latest tag"
         id: latest_tag
         run: |
