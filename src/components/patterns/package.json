@@ -1,6 +1,6 @@
 {
   "name": "@aileron/patterns",
-  "version": "1.16.1-beta.0",
+  "version": "1.16.2-alpha.1",
   "author": "David Ozee",
   "homepage": "https://aileron.aa.com/",
   "bugs": {
@@ -32,13 +32,13 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/button": "1.16.1-beta.0",
-    "@aileron/checkbox": "1.16.1-beta.0",
-    "@aileron/divider": "1.16.1-beta.0",
-    "@aileron/grid": "1.16.1-beta.0",
-    "@aileron/radio-button": "1.16.1-beta.0",
-    "@aileron/select": "1.16.1-beta.0",
-    "@aileron/text-input": "1.16.1-beta.0",
+    "@aileron/button": "1.16.2-alpha.1",
+    "@aileron/checkbox": "1.16.2-alpha.1",
+    "@aileron/divider": "1.16.2-alpha.1",
+    "@aileron/grid": "1.16.2-alpha.1",
+    "@aileron/radio-button": "1.16.2-alpha.1",
+    "@aileron/select": "1.16.2-alpha.1",
+    "@aileron/text-input": "1.16.2-alpha.1",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },

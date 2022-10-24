@@ -17,13 +17,28 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v2
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm i --ignore-scripts --legacy-peer-deps
+      - name: Run post install scripts
+        run: npm rebuild
       - name: Graduate Version
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           npx lerna version --conventional-commits --conventional-graduate -m "chore(release): publish %v" --no-private --no-changelog --force-publish --yes --exact --no-push
+          echo "$(git tag --list)"
+          git push --tags
       - name: Remove pre-release tags
         run: |
+          git pull --tags
+          echo "$(git tag --list)"
           git tag -l | grep -vE '^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$' | xargs git tag -d
           npx conventional-changelog -p angular -i CHANGELOG.md --skip-unstable -s -r 2
           git add .
@@ -34,6 +49,7 @@ jobs:
         id: latest_tag
         run: |
           git fetch --all --tag
+          echo "$(git tag --sort=-creatordate | head -1)"
           echo "::set-output name=name::$(git tag --sort=-creatordate | head -1)"
       - name: Create Main Release
         run: gh release create ${{ steps.latest_tag.outputs.name }} --generate-notes
