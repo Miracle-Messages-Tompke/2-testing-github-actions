@@ -1,13 +1,13 @@
 {
   "name": "@aileron/link",
-  "version": "1.16.4",
+  "version": "1.16.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/AAInternal/aileron.git",
     "directory": "src/components/link"
   },
   "dependencies": {
-    "@aileron/icon": "1.16.4",
+    "@aileron/icon": "1.16.5",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
