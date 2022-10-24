@@ -1,6 +1,6 @@
 {
   "name": "@aileron/button",
-  "version": "1.16.6-rc.0",
+  "version": "1.16.6",
   "publishConfig": {
     "access": "public",
     "registry": "https://packages.aa.com/artifactory/api/npm/AA-internal-npm/"
@@ -33,7 +33,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/styles": "1.16.6-rc.0",
+    "@aileron/styles": "1.16.6",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
