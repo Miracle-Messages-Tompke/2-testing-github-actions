@@ -1,12 +1,16 @@
-#  (2022-10-24)
+# [](https://github.com/AAInternal/aileron/compare/v1.16.3...v) (2022-10-24)
 
 
 
-#  (2022-10-24)
+## [1.16.3](https://github.com/AAInternal/aileron/compare/v1.16.2...v1.16.3) (2022-10-24)
+
+
+### Features
+
+* **cup:** Removed styling. ([0b2c772](https://github.com/AAInternal/aileron/commit/0b2c7723833376fb2ef3e2241b489292dd178fa5))
 
 
 
-# [](https://github.com/AAInternal/aileron/compare/v1.16.0...v) (2022-10-24)
 
 
 
