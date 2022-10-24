@@ -1,6 +1,6 @@
 {
   "name": "@aileron/checkbox",
-  "version": "1.16.1",
+  "version": "1.16.2-alpha.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/AAInternal/aileron.git",
@@ -20,7 +20,7 @@
     "watch": "npm run build -- --watch"
   },
   "dependencies": {
-    "@aileron/shared": "1.16.1",
+    "@aileron/shared": "1.16.2-alpha.0",
     "lit": "^2.1.1",
     "tslib": "^2.3.1"
   },
