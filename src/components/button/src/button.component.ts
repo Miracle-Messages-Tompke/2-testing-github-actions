@@ -17,6 +17,12 @@ import type { PropertyValues, TemplateResult } from "lit";
  * the `<slot>` content.
  * @slot default - text content slot (default)
  * @slot leading-icon - This is a slot for an icon before text.
+ * @slot default - text content slot (default)
+ * @slot leading-icon - This is a slot for an icon before text.
+ * @slot default - text content slot (default)
+ * @slot leading-icon - This is a slot for an icon before text.
+ * @slot default - text content slot (default)
+ * @slot leading-icon - This is a slot for an icon before text.
  * @slot trailing-icon - This is a slot for an icon after text.
  */
 export class Button extends LitElement {
