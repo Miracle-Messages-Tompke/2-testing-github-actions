@@ -1,1 +1,59 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/tmp
+/out-tsc
+**/loader
+
+# dependencies
 node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+**/*.env.*
+
+# build artifacts
+custom-elements.json
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/.stylelintcache
+*.out.css
+/connect.lock
+**/coverage
+.nyc_output/
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/lerna-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/coverage
+src/components/*/custom-elements.json
+src/components/**/dist
+src/components/**/*.tgz
+src/components/**/package-lock.json
+src/components/**/*.d.ts
+!src/components/*/global.d.ts
+**/*.tsbuildinfo*
+
+.eslintcache

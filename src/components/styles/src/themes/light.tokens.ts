@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 18 Oct 2022 20:32:07 GMT
+ * Generated on Tue, 08 Nov 2022 15:09:04 GMT
  */
 
 export const sizeW1 = "1rem";
@@ -21,22 +21,22 @@ export const breakpointXs = 390;
 export const breakpointSm = 800;
 export const breakpointMd = 1280;
 export const breakpointLg = 1440;
-export const spacing2 = { top: 2, bottom: 2, left: 2, right: 2 };
-export const spacing4 = { top: 4, bottom: 4, left: 4, right: 4 };
-export const spacing8 = { top: 8, bottom: 8, left: 8, right: 8 };
-export const spacing12 = { top: 12, bottom: 12, left: 12, right: 12 };
-export const spacing16 = { top: 16, bottom: 16, left: 16, right: 16 };
-export const spacing24 = { top: 24, bottom: 24, left: 24, right: 24 };
-export const spacing32 = { top: 32, bottom: 32, left: 32, right: 32 };
-export const spacing36 = { top: 36, bottom: 36, left: 36, right: 36 };
-export const spacing40 = { top: 40, bottom: 40, left: 40, right: 40 };
-export const spacing48 = { top: 48, bottom: 48, left: 48, right: 48 };
-export const spacing64 = { top: 64, bottom: 64, left: 64, right: 64 };
-export const spacing80 = { top: 80, bottom: 80, left: 80, right: 80 };
-export const spacing96 = { top: 96, bottom: 96, left: 96, right: 96 };
-export const spacing180 = { top: 180, bottom: 180, left: 180, right: 180 };
-export const radiusSm = { smoothing: 0, topLeft: 4, topRight: 4, bottomLeft: 4, bottomRight: 4 };
-export const radiusLg = { smoothing: 0, topLeft: 8, topRight: 8, bottomLeft: 8, bottomRight: 8 };
+export const spacing2 = {"top":2,"bottom":2,"left":2,"right":2};
+export const spacing4 = {"top":4,"bottom":4,"left":4,"right":4};
+export const spacing8 = {"top":8,"bottom":8,"left":8,"right":8};
+export const spacing12 = {"top":12,"bottom":12,"left":12,"right":12};
+export const spacing16 = {"top":16,"bottom":16,"left":16,"right":16};
+export const spacing24 = {"top":24,"bottom":24,"left":24,"right":24};
+export const spacing32 = {"top":32,"bottom":32,"left":32,"right":32};
+export const spacing36 = {"top":36,"bottom":36,"left":36,"right":36};
+export const spacing40 = {"top":40,"bottom":40,"left":40,"right":40};
+export const spacing48 = {"top":48,"bottom":48,"left":48,"right":48};
+export const spacing64 = {"top":64,"bottom":64,"left":64,"right":64};
+export const spacing80 = {"top":80,"bottom":80,"left":80,"right":80};
+export const spacing96 = {"top":96,"bottom":96,"left":96,"right":96};
+export const spacing180 = {"top":180,"bottom":180,"left":180,"right":180};
+export const radiusSm = {"smoothing":0,"topLeft":4,"topRight":4,"bottomLeft":4,"bottomRight":4};
+export const radiusLg = {"smoothing":0,"topLeft":8,"topRight":8,"bottomLeft":8,"bottomRight":8};
 export const colorLightModeBackgroundContainerDefault = "#ffffff";
 export const colorLightModeBackgroundContainerSecondary = "#f9fafb";
 export const colorLightModeBackgroundContainerTertiary = "#f3f5f7";
@@ -173,154 +173,25 @@ export const colorReferenceRedRed030 = "#620e18";
 export const colorReferenceRedRed020 = "#500b14";
 export const colorReferenceRedRed010 = "#3e090f";
 export const colorReferenceRedRed000 = "#2d060b";
-export const grid390 = {
-  pattern: "columns",
-  gutterSize: 16,
-  alignment: "stretch",
-  count: 4,
-  offset: 16
-};
-export const grid800 = {
-  pattern: "columns",
-  gutterSize: 24,
-  alignment: "stretch",
-  count: 8,
-  offset: 32
-};
-export const grid1280 = {
-  pattern: "columns",
-  gutterSize: 24,
-  alignment: "stretch",
-  count: 12,
-  offset: 32
-};
-export const grid1440 = {
-  pattern: "columns",
-  gutterSize: 24,
-  alignment: "stretch",
-  count: 12,
-  offset: 112
-};
-export const effectLightMode010 = {
-  shadowType: "dropShadow",
-  radius: 1,
-  color: "rgba(0 0 0 / 0.12)",
-  offsetX: 0,
-  offsetY: 3,
-  spread: 0
-};
-export const effectLightMode011 = {
-  shadowType: "dropShadow",
-  radius: 2,
-  color: "rgba(0 0 0 / 0.14)",
-  offsetX: 0,
-  offsetY: 2,
-  spread: 0
-};
-export const effectLightMode012 = {
-  shadowType: "dropShadow",
-  radius: 5,
-  color: "rgba(0 0 0 / 0.2)",
-  offsetX: 0,
-  offsetY: 1,
-  spread: 0
-};
-export const effectLightMode020 = {
-  shadowType: "dropShadow",
-  radius: 18,
-  color: "rgba(0 0 0 / 0.12)",
-  offsetX: 0,
-  offsetY: 1,
-  spread: 0
-};
-export const effectLightMode021 = {
-  shadowType: "dropShadow",
-  radius: 10,
-  color: "rgba(0 0 0 / 0.14)",
-  offsetX: 0,
-  offsetY: 6,
-  spread: 0
-};
-export const effectLightMode022 = {
-  shadowType: "dropShadow",
-  radius: 5,
-  color: "rgba(0 0 0 / 0.2)",
-  offsetX: 0,
-  offsetY: 3,
-  spread: -1
-};
-export const effectLightMode030 = {
-  shadowType: "dropShadow",
-  radius: 14,
-  color: "rgba(0 0 0 / 0.12)",
-  offsetX: 0,
-  offsetY: 3,
-  spread: 2
-};
-export const effectLightMode031 = {
-  shadowType: "dropShadow",
-  radius: 10,
-  color: "rgba(0 0 0 / 0.14)",
-  offsetX: 0,
-  offsetY: 8,
-  spread: 1
-};
-export const effectLightMode032 = {
-  shadowType: "dropShadow",
-  radius: 5,
-  color: "rgba(0 0 0 / 0.2)",
-  offsetX: 0,
-  offsetY: 5,
-  spread: -3
-};
-export const effectLightMode040 = {
-  shadowType: "dropShadow",
-  radius: 22,
-  color: "rgba(0 0 0 / 0.12)",
-  offsetX: 0,
-  offsetY: 5,
-  spread: 4
-};
-export const effectLightMode041 = {
-  shadowType: "dropShadow",
-  radius: 17,
-  color: "rgba(0 0 0 / 0.14)",
-  offsetX: 0,
-  offsetY: 12,
-  spread: 2
-};
-export const effectLightMode042 = {
-  shadowType: "dropShadow",
-  radius: 8,
-  color: "rgba(0 0 0 / 0.2)",
-  offsetX: 0,
-  offsetY: 7,
-  spread: -4
-};
-export const effectLightMode050 = {
-  shadowType: "dropShadow",
-  radius: 46,
-  color: "rgba(0 0 0 / 0.12)",
-  offsetX: 0,
-  offsetY: 9,
-  spread: 8
-};
-export const effectLightMode051 = {
-  shadowType: "dropShadow",
-  radius: 38,
-  color: "rgba(0 0 0 / 0.14)",
-  offsetX: 0,
-  offsetY: 24,
-  spread: 3
-};
-export const effectLightMode052 = {
-  shadowType: "dropShadow",
-  radius: 15,
-  color: "rgba(0 0 0 / 0.2)",
-  offsetX: 0,
-  offsetY: 11,
-  spread: -7
-};
+export const grid390 = {"pattern":"columns","gutterSize":16,"alignment":"stretch","count":4,"offset":16};
+export const grid800 = {"pattern":"columns","gutterSize":24,"alignment":"stretch","count":8,"offset":32};
+export const grid1280 = {"pattern":"columns","gutterSize":24,"alignment":"stretch","count":12,"offset":32};
+export const grid1440 = {"pattern":"columns","gutterSize":24,"alignment":"stretch","count":12,"offset":112};
+export const effectLightMode010 = {"shadowType":"dropShadow","radius":1,"color":"rgba(0 0 0 / 0.12)","offsetX":0,"offsetY":3,"spread":0};
+export const effectLightMode011 = {"shadowType":"dropShadow","radius":2,"color":"rgba(0 0 0 / 0.14)","offsetX":0,"offsetY":2,"spread":0};
+export const effectLightMode012 = {"shadowType":"dropShadow","radius":5,"color":"rgba(0 0 0 / 0.2)","offsetX":0,"offsetY":1,"spread":0};
+export const effectLightMode020 = {"shadowType":"dropShadow","radius":18,"color":"rgba(0 0 0 / 0.12)","offsetX":0,"offsetY":1,"spread":0};
+export const effectLightMode021 = {"shadowType":"dropShadow","radius":10,"color":"rgba(0 0 0 / 0.14)","offsetX":0,"offsetY":6,"spread":0};
+export const effectLightMode022 = {"shadowType":"dropShadow","radius":5,"color":"rgba(0 0 0 / 0.2)","offsetX":0,"offsetY":3,"spread":-1};
+export const effectLightMode030 = {"shadowType":"dropShadow","radius":14,"color":"rgba(0 0 0 / 0.12)","offsetX":0,"offsetY":3,"spread":2};
+export const effectLightMode031 = {"shadowType":"dropShadow","radius":10,"color":"rgba(0 0 0 / 0.14)","offsetX":0,"offsetY":8,"spread":1};
+export const effectLightMode032 = {"shadowType":"dropShadow","radius":5,"color":"rgba(0 0 0 / 0.2)","offsetX":0,"offsetY":5,"spread":-3};
+export const effectLightMode040 = {"shadowType":"dropShadow","radius":22,"color":"rgba(0 0 0 / 0.12)","offsetX":0,"offsetY":5,"spread":4};
+export const effectLightMode041 = {"shadowType":"dropShadow","radius":17,"color":"rgba(0 0 0 / 0.14)","offsetX":0,"offsetY":12,"spread":2};
+export const effectLightMode042 = {"shadowType":"dropShadow","radius":8,"color":"rgba(0 0 0 / 0.2)","offsetX":0,"offsetY":7,"spread":-4};
+export const effectLightMode050 = {"shadowType":"dropShadow","radius":46,"color":"rgba(0 0 0 / 0.12)","offsetX":0,"offsetY":9,"spread":8};
+export const effectLightMode051 = {"shadowType":"dropShadow","radius":38,"color":"rgba(0 0 0 / 0.14)","offsetX":0,"offsetY":24,"spread":3};
+export const effectLightMode052 = {"shadowType":"dropShadow","radius":15,"color":"rgba(0 0 0 / 0.2)","offsetX":0,"offsetY":11,"spread":-7};
 export const typography390HeadingTitleFontSize = 36;
 export const typography390HeadingTitleTextDecoration = "none";
 export const typography390HeadingTitleFontFamily = "AmericanSans";
