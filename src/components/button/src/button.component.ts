@@ -15,6 +15,8 @@ import type { PropertyValues, TemplateResult } from "lit";
  * @fires adc-blur - listens for a blur event on the button.
  * @attr {string} [label-text] - The text-content of the button, could also be
  * the `<slot>` content.
+  * the `<slot>` content.
+   * the `<slot>` content. * the `<slot>` content.
  * @slot default - text content slot (default)
  * @slot leading-icon - This is a slot for an icon before text.
  * @slot trailing-icon - This is a slot for an icon after text.
