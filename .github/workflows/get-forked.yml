@@ -17,6 +17,7 @@ jobs:
         run: echo ${{ steps.pr-url.outputs.url }}
       - run: |
           echo '${{github.event.pull_request.head.repo.ssh_url}}'
+          echo '${{ toJSON(github) }}'
           git remote add forked-repo ${{github.event.pull_request.head.repo.ssh_url}}
           git remote -v
           git fetch forked-repo  
